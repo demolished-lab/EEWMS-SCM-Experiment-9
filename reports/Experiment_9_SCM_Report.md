@@ -118,7 +118,7 @@ The `v2.0` tag remains on the CR-01 merge commit; later report/evidence commits 
 
 The public repository was created and verified at the URL shown above. GitHub reports visibility **PUBLIC** and default branch **`Version1`**. Remote branches are `Version1` and `feature/privacy-aware-trends`. Remote annotated tags are `v1.0` and `v2.0`.
 
-The first remote-ref verification captured `Version1` at `5891081`. The later screenshot-evidence commit `0b7c2d5` and verification-note commit `1b46345` were documentation-only; neither moved the feature branch or release-tag targets.
+The first remote-ref verification captured `Version1` at `5891081`. The later screenshot-evidence commit `0b7c2d5` and verification-note commit `1b46345` were documentation-only; neither moved the feature branch or release-tag targets. The root-page screenshot records the public repository at `8b5351d` before that screenshot file was added.
 
 At the remote-ref verification checkpoint, the branch and peeled tag targets were:
 
@@ -138,6 +138,10 @@ The screenshot directory contains direct captures of the actual public GitHub pa
 **Figure 2 — Commit history on `Version1`.**
 
 ![GitHub commit history for the Version1 branch](screenshots/github-commit-history-Version1.webp)
+
+**Figure 3 — Public repository root showing the Experiment 9 README and files.**
+
+![GitHub repository root page for Experiment 9](screenshots/github-repository-root-Version1.webp)
 
 Screenshot source URLs and capture notes are recorded in [`screenshots/README.md`](screenshots/README.md).
 

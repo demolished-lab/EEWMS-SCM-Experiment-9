@@ -7,6 +7,6 @@
 | CI-03 | `docs/CI_Register.md` | Inventory of controlled items | Baseline; updated when CIs change |
 | CI-04 | `change-requests/CR-01-Privacy-Aware-Trends.md` | Change record and acceptance checks for an SRS-backed privacy-aware trend workflow | Created on `feature/privacy-aware-trends`, then merged |
 | CI-05 | `reports/Experiment_9_SCM_Report.md` | Procedure, commands, observed history, and conclusion | Added after the workflow and verified against Git output |
-| CI-06 | `reports/screenshots/` | Direct screenshots of the GitHub change comparison and commit history | Captured from the public repository and stored as report evidence |
+| CI-06 | `reports/screenshots/` | Direct screenshots of the GitHub root page, change comparison, and commit history | Captured from the public repository and stored as report evidence |
 
 No employee response data, credentials, or production code are included in this practical repository.

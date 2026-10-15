@@ -22,7 +22,7 @@ To study Software Configuration Management (SCM) using Git and GitHub, and apply
 - [`docs/CI_Register.md`](docs/CI_Register.md) — configuration-item register.
 - [`change-requests/CR-01-Privacy-Aware-Trends.md`](change-requests/CR-01-Privacy-Aware-Trends.md) — documented change request added on the feature branch.
 - [`reports/Experiment_9_SCM_Report.md`](reports/Experiment_9_SCM_Report.md) — procedure, command record, version history, and conclusion.
-- [`reports/screenshots/`](reports/screenshots/) — direct GitHub screenshots of the baseline-to-release diff and commit history.
+- [`reports/screenshots/`](reports/screenshots/) — direct GitHub screenshots of the repository root, baseline-to-release diff, and commit history.
 
 ## Scope and privacy
 
