@@ -111,7 +111,7 @@ git diff --stat v1.0 v2.0
 
 ## 6. GitHub publication record
 
-The local workflow is complete. The planned public repository URL is <https://github.com/demolished-lab/EEWMS-SCM-Experiment-9>. The repository has **not** yet been created or pushed; those remote actions will be performed only after the student confirms the exact public content and repository details. After confirmation, this section will be updated with the actual remote visibility, pushed branches/tags, and verification output.
+The approved public repository has been created at <https://github.com/demolished-lab/EEWMS-SCM-Experiment-9>. The local baseline, feature branch, and tags are now being published. This section will be completed with the confirmed remote visibility, pushed refs, and verification output after the push succeeds.
 
 ## 7. Conclusion
 
