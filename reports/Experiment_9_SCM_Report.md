@@ -109,12 +109,15 @@ git diff --stat v1.0 v2.0
 | Change request | `feature/privacy-aware-trends` | `796d26a` | Added CR-01 verification record |
 | Release | `Version1`, `v2.0` | `0b9dbeb` | Merged CR-01 using a visible merge commit |
 | Documentation | `Version1` | `93139b1`, `5891081` | Added the experiment report and recorded publication status after the release tag |
+| Screenshot evidence | `Version1` | `0b7c2d5` | Added direct GitHub comparison/history screenshots and repository links |
 
 The `v2.0` tag remains on the CR-01 merge commit; later report/evidence commits do not move the release tag.
 
 ## 6. GitHub publication verification
 
 The public repository was created and verified at the URL shown above. GitHub reports visibility **PUBLIC** and default branch **`Version1`**. Remote branches are `Version1` and `feature/privacy-aware-trends`. Remote annotated tags are `v1.0` and `v2.0`.
+
+After the screenshot evidence commit, the `Version1` branch head is `0b7c2d5`; the feature branch and release-tag targets remain unchanged.
 
 At the remote-ref verification checkpoint, the branch and peeled tag targets were:
 
