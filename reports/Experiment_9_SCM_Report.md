@@ -8,8 +8,8 @@
 | Roll number | 2403013 |
 | Batch | C11 |
 | Case study | Employee Engagement & Wellness Management System (EEWMS) |
-| Planned repository | `demolished-lab/EEWMS-SCM-Experiment-9` |
-| Visibility | Public, pending the student's final confirmation |
+| Repository | [demolished-lab/EEWMS-SCM-Experiment-9](https://github.com/demolished-lab/EEWMS-SCM-Experiment-9) |
+| Visibility | Public |
 
 ## 1. Aim
 
@@ -29,7 +29,7 @@ Git is a distributed version-control system. A repository records files and thei
 
 The practical tracks the items listed in [`docs/CI_Register.md`](../docs/CI_Register.md). The baseline includes the EEWMS SRS summary and CI register. CR-01 adds a privacy-aware aggregate-trend verification record on a feature branch. The repository contains documentation only; it includes no employee wellness data, credentials, or production code.
 
-## 4. Procedure and observed local Git record
+## 4. Procedure and observed Git record
 
 ### Step 1 — Initialize the baseline
 
@@ -108,11 +108,35 @@ git diff --stat v1.0 v2.0
 | Baseline | `Version1`, `v1.0` | `1166fa7` | EEWMS SCM baseline and configuration items |
 | Change request | `feature/privacy-aware-trends` | `796d26a` | Added CR-01 verification record |
 | Release | `Version1`, `v2.0` | `0b9dbeb` | Merged CR-01 using a visible merge commit |
+| Documentation | `Version1` | `93139b1`, `5891081` | Added the experiment report and recorded publication status after the release tag |
 
-## 6. GitHub publication record
+The `v2.0` tag remains on the CR-01 merge commit; later report/evidence commits do not move the release tag.
 
-The approved public repository has been created at <https://github.com/demolished-lab/EEWMS-SCM-Experiment-9>. The local baseline, feature branch, and tags are now being published. This section will be completed with the confirmed remote visibility, pushed refs, and verification output after the push succeeds.
+## 6. GitHub publication verification
+
+The public repository was created and verified at the URL shown above. GitHub reports visibility **PUBLIC** and default branch **`Version1`**. Remote branches are `Version1` and `feature/privacy-aware-trends`. Remote annotated tags are `v1.0` and `v2.0`.
+
+At the remote-ref verification checkpoint, the branch and peeled tag targets were:
+
+```text
+5891081  refs/heads/Version1
+796d26a  refs/heads/feature/privacy-aware-trends
+1166fa7  refs/tags/v1.0^{}
+0b9dbeb  refs/tags/v2.0^{}
+```
+
+The screenshot directory contains direct captures of the actual public GitHub pages, not mockups:
+
+**Figure 1 — CR-01 diff from the `v1.0` baseline to `v2.0`.**
+
+![GitHub compare page showing the CR-01 change](screenshots/github-diff-v1.0-to-v2.0.webp)
+
+**Figure 2 — Commit history on `Version1`.**
+
+![GitHub commit history for the Version1 branch](screenshots/github-commit-history-Version1.webp)
+
+Screenshot source URLs and capture notes are recorded in [`screenshots/README.md`](screenshots/README.md).
 
 ## 7. Conclusion
 
-The local experiment established a baseline, isolated CR-01 on a feature branch, merged it into `Version1`, tagged the baseline and release, and verified the resulting history and diff. This demonstrates how Git supports controlled changes and traceable project-document versions.
+The practical established an EEWMS documentation baseline, isolated CR-01 on a feature branch, merged it into `Version1`, tagged the baseline and release, and verified the resulting public GitHub branches, tags, history, and diff. This demonstrates how Git and GitHub support controlled changes and traceable project-document versions.
